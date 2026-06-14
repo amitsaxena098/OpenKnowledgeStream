@@ -18,6 +18,4 @@ public class WikipediaClient {
                 .bodyToMono(Query.class)
                 .block();
     }
-
-
 }
